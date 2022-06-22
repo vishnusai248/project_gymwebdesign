@@ -1,0 +1,150 @@
+*{
+    margin:0;
+    padding: 0%;
+}
+body{
+    background-image :url("../background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    /*background-position: center;*/
+    color: white;
+}
+
+header{
+    color: white;
+    height: 100px;
+    position: sticky;
+    top: 0px;
+    background-color: black;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+#logo{
+    margin-right: 35em;
+    float: left;
+}
+.navbar a:hover{
+    color: orange;
+}
+#logo_font{
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+}
+#logo_image{
+    height: 80px;
+    width: 90px;
+    padding: 10px 0 0 10px;
+    vertical-align: middle;
+    border-radius: 10px 10px;
+}
+#gym_centre{
+    font-size: 20px;
+    position: absolute;
+    left: 7%;
+    top: 60%;
+}
+.navbar{
+    padding-top: 50px;
+    position: relative;
+}
+.navbar ul li{
+    float: left;
+    padding: 0 25px 0;
+    font-size: 1.5em;
+}
+.navbar ul ul{
+    position: absolute;
+    display: none;       
+}
+.navbar ul li:hover >ul{
+    display: block;
+    
+}
+.navbar ul ul li{
+    clear: both;
+    padding: 5px 0;
+    margin: 5px 0;
+    font-size: 1em;
+    /*background-color: skyblue;
+    border: 1px solid blue;
+    border-radius: 15px;*/
+}
+/*footer starts here 
+footer{
+    margin: 0;
+
+}*/
+#footer_content{
+    clear: both;
+    background-color: rgb(243, 108, 59);
+    position:relative;
+    bottom: 0px;
+    height: 90px;
+    width: 100%;
+    padding: 10px 0;
+    text-align: center;
+}
+#footer_content p{
+    font-size: 20px;
+}
+#footer_content .social_icons img{
+    height: 30px;
+    width: 30px;
+    border-radius: 7px;
+    padding: 5px;
+}
+#footer_content .social_icons ul li{
+    display: inline-block;
+}
+/*pricing*/
+
+#month_year_pr{
+    
+    padding: 50px;
+    clear: both;
+    text-align: center;
+    background-color:rgba(29, 27, 26, 0.815);
+}
+#month_year_pr .pricing_heading{
+    font-size: 50px;
+    color: orange;
+    font-family: 'Dancing Script', cursive;
+    margin: 20px 0;
+
+}
+#month_year_pr .including_t , .excluding_t{
+    border: 2px solid orangered;
+    margin: 20px;
+    box-shadow: 5px 5px 5px 5px orangered;
+    border-radius: 10px;
+    display: inline-block;
+    height: 400px;
+}
+#month_year_pr .table_top{
+    background-color: orangered;
+    font-size: 40px;
+    padding: 10px;
+    margin: 0;
+    border-radius: 10px;
+    font-family: 'Dancing Script', cursive;
+}
+#month_year_pr .tables td{
+    padding: 10px;
+    margin: 0;
+    font-size: 18px;
+}
+#month_year_pr .tables .table_text_size{
+    padding: 10px;
+    margin: 0;
+    font-size: 40px;
+    color: orange;
+}
+#month_year_pr .tables .discount{
+    color:rgb(82, 177, 209);
+}
